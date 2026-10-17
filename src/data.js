@@ -44,44 +44,44 @@ export const dpProblems = dpGroups.flatMap(([group, problems], gi) => problems.m
 
 export const systemDesignGroups = [
   ['Foundations & Distributed Systems',[
-    ['Scale From Zero To Millions Of Users','https://lnkd.in/eKeb7UAP'],
-    ['Back-of-the-envelope Estimation','https://lnkd.in/exNDruyq'],
-    ['A Framework For System Design Interviews','https://lnkd.in/eQuTKYmQ'],
-    ['Design A Rate Limiter','https://lnkd.in/eBZSn_2H'],
-    ['Design Consistent Hashing','https://lnkd.in/edYKkHfK'],
-    ['Design A Unique ID Generator In Distributed Systems','https://lnkd.in/eh9Kh6hH']
+    ['Scale From Zero To Millions Of Users','https://github.com/liquidslr/system-design-notes/tree/main/01.%20Scaling'],
+    ['Back-of-the-envelope Estimation','https://github.com/liquidslr/system-design-notes/tree/main/02.%20Back%20Of%20the%20Envelope%20Estimation'],
+    ['A Framework For System Design Interviews','https://github.com/liquidslr/system-design-notes/tree/main/03.%20System%20Design%20Framework'],
+    ['Design A Rate Limiter','https://github.com/liquidslr/system-design-notes/tree/main/04.%20Rate%20Limiter'],
+    ['Design Consistent Hashing','https://github.com/liquidslr/system-design-notes/tree/main/05.%20Consistent%20Hashing'],
+    ['Design A Unique ID Generator In Distributed Systems','https://github.com/liquidslr/system-design-notes/tree/main/07.%20Unique-Id%20Generator']
   ]],
   ['Storage & Data Systems',[
-    ['Design A Key-Value Store','https://lnkd.in/ervHadhX'],
-    ['Design Google Drive','https://lnkd.in/eCYWSF2H'],
-    ['S3-like Object Storage','https://lnkd.in/etQXt6sg'],
-    ['Distributed Message Queue','https://lnkd.in/eahj8BFs'],
-    ['Metrics Monitoring and Alerting System','https://lnkd.in/eqtrayv4'],
-    ['Ad Click Event Aggregation','https://lnkd.in/eykb8vmX']
+    ['Design A Key-Value Store','https://github.com/liquidslr/system-design-notes/tree/main/06.%20Key-Value%20Store'],
+    ['Design Google Drive','https://github.com/liquidslr/system-design-notes/tree/main/15.%20Google%20Drive'],
+    ['S3-like Object Storage','https://github.com/liquidslr/system-design-notes/tree/main/24.%20S3-like%20Object%20Storage'],
+    ['Distributed Message Queue','https://github.com/liquidslr/system-design-notes/tree/main/19.%20Distributed%20Message%20Queue'],
+    ['Metrics Monitoring and Alerting System','https://github.com/liquidslr/system-design-notes/tree/main/20.%20Metrics%20Monitoring%20and%20Alerting%20System'],
+    ['Ad Click Event Aggregation','https://github.com/liquidslr/system-design-notes/tree/main/21.%20Ad%20Click%20Event%20Aggregation']
   ]],
   ['Search & Discovery Systems',[
-    ['Design A URL Shortener','https://lnkd.in/eT_BpKKg'],
-    ['Design A Web Crawler','https://lnkd.in/ea8pYgyc'],
-    ['Design A Search Autocomplete System','https://lnkd.in/ewhuXQ2J']
+    ['Design A URL Shortener','https://github.com/liquidslr/system-design-notes/tree/main/08.%20URL%20Shortener'],
+    ['Design A Web Crawler','https://github.com/liquidslr/system-design-notes/tree/main/09.%20Web%20Crawler'],
+    ['Design A Search Autocomplete System','https://github.com/liquidslr/system-design-notes/tree/main/13.%20Search%20Autocomplete']
   ]],
   ['Communication & Social Systems',[
-    ['Design A Notification System','https://lnkd.in/eHjQDfu8'],
-    ['Design A News Feed System','https://lnkd.in/eUiS_mwH'],
-    ['Design A Chat System','https://lnkd.in/eCpxgxAV'],
-    ['Distributed Email Service','https://lnkd.in/e3hDDh9d']
+    ['Design A Notification System','https://github.com/liquidslr/system-design-notes/tree/main/10.%20Notification%20System'],
+    ['Design A News Feed System','https://github.com/liquidslr/system-design-notes/tree/main/11.%20News%20Feed%20System'],
+    ['Design A Chat System','https://github.com/liquidslr/system-design-notes/tree/main/12.%20Chat%20System'],
+    ['Distributed Email Service','https://github.com/liquidslr/system-design-notes/tree/main/23.%20Distributed%20Email%20Service']
   ]],
   ['Geo-Spatial Systems',[
-    ['Proximity Service','https://lnkd.in/eMzw7inN'],
-    ['Nearby Friends','https://lnkd.in/expC3mBP'],
-    ['Design Google Maps','https://lnkd.in/epqmeDiU']
+    ['Proximity Service','https://github.com/liquidslr/system-design-notes/tree/main/16.%20Proximity%20Service'],
+    ['Nearby Friends','https://github.com/liquidslr/system-design-notes/tree/main/17.%20Nearby%20Friends'],
+    ['Design Google Maps','https://github.com/liquidslr/system-design-notes/tree/main/18.%20Google%20Maps']
   ]],
   ['Large-Scale Applications & Financial Systems',[
-    ['Design YouTube','https://lnkd.in/ectr9ne5'],
-    ['Hotel Reservation System','https://lnkd.in/eqKjDBYE'],
-    ['Real-time Gaming Leaderboard','https://lnkd.in/ehSMRTEy'],
-    ['Payment System','https://lnkd.in/eWKEVb5R'],
-    ['Digital Wallet','https://lnkd.in/ehHp5_Un'],
-    ['Stock Exchange','https://lnkd.in/emy5S7gvjust','https://www.youtube.com/playlist?list=PLQEaRBV9gAFvzp6XhcNFpk1WdOcyVo9qT']
+    ['Design YouTube','https://github.com/liquidslr/system-design-notes/tree/main/14.%20Youtube'],
+    ['Hotel Reservation System','https://github.com/liquidslr/system-design-notes/tree/main/22.%20Hotel%20Reservation%20System'],
+    ['Real-time Gaming Leaderboard','https://github.com/liquidslr/system-design-notes/tree/main/25.%20Real-time%20Gaming%20Leaderboard'],
+    ['Payment System','https://github.com/liquidslr/system-design-notes/tree/main/26.%20Payment%20System'],
+    ['Digital Wallet','https://github.com/liquidslr/system-design-notes/tree/main/27.%20%20Digital%20Wallet'],
+    ['Stock Exchange','https://github.com/liquidslr/system-design-notes/tree/main/28.%20Stock%20Exchange','https://www.youtube.com/playlist?list=PLQEaRBV9gAFvzp6XhcNFpk1WdOcyVo9qT']
   ]]
 ];
 
