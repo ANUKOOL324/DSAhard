@@ -41,3 +41,48 @@ export const dpGroups = [
   ['DP Optimization & Mixed Advanced DP',[['Frog 3','—','AtCoder','https://atcoder.jp/contests/dp/tasks/dp_z',1],['Flowers','—','AtCoder','https://atcoder.jp/contests/dp/tasks/dp_q',1],['Weighted Job Scheduling','Medium','LeetCode','https://leetcode.com/problems/maximum-profit-in-job-scheduling/',0]]]
 ];
 export const dpProblems = dpGroups.flatMap(([group, problems], gi) => problems.map((p, pi) => ({id:`dp-${gi}-${pi}`,group,title:p[0],difficulty:p[1],platform:p[2],url:p[3],star:!!p[4],chapter:'dp'})));
+
+export const systemDesignGroups = [
+  ['Foundations & Distributed Systems',[
+    ['Scale From Zero To Millions Of Users','https://lnkd.in/eKeb7UAP'],
+    ['Back-of-the-envelope Estimation','https://lnkd.in/exNDruyq'],
+    ['A Framework For System Design Interviews','https://lnkd.in/eQuTKYmQ'],
+    ['Design A Rate Limiter','https://lnkd.in/eBZSn_2H'],
+    ['Design Consistent Hashing','https://lnkd.in/edYKkHfK'],
+    ['Design A Unique ID Generator In Distributed Systems','https://lnkd.in/eh9Kh6hH']
+  ]],
+  ['Storage & Data Systems',[
+    ['Design A Key-Value Store','https://lnkd.in/ervHadhX'],
+    ['Design Google Drive','https://lnkd.in/eCYWSF2H'],
+    ['S3-like Object Storage','https://lnkd.in/etQXt6sg'],
+    ['Distributed Message Queue','https://lnkd.in/eahj8BFs'],
+    ['Metrics Monitoring and Alerting System','https://lnkd.in/eqtrayv4'],
+    ['Ad Click Event Aggregation','https://lnkd.in/eykb8vmX']
+  ]],
+  ['Search & Discovery Systems',[
+    ['Design A URL Shortener','https://lnkd.in/eT_BpKKg'],
+    ['Design A Web Crawler','https://lnkd.in/ea8pYgyc'],
+    ['Design A Search Autocomplete System','https://lnkd.in/ewhuXQ2J']
+  ]],
+  ['Communication & Social Systems',[
+    ['Design A Notification System','https://lnkd.in/eHjQDfu8'],
+    ['Design A News Feed System','https://lnkd.in/eUiS_mwH'],
+    ['Design A Chat System','https://lnkd.in/eCpxgxAV'],
+    ['Distributed Email Service','https://lnkd.in/e3hDDh9d']
+  ]],
+  ['Geo-Spatial Systems',[
+    ['Proximity Service','https://lnkd.in/eMzw7inN'],
+    ['Nearby Friends','https://lnkd.in/expC3mBP'],
+    ['Design Google Maps','https://lnkd.in/epqmeDiU']
+  ]],
+  ['Large-Scale Applications & Financial Systems',[
+    ['Design YouTube','https://lnkd.in/ectr9ne5'],
+    ['Hotel Reservation System','https://lnkd.in/eqKjDBYE'],
+    ['Real-time Gaming Leaderboard','https://lnkd.in/ehSMRTEy'],
+    ['Payment System','https://lnkd.in/eWKEVb5R'],
+    ['Digital Wallet','https://lnkd.in/ehHp5_Un'],
+    ['Stock Exchange','https://lnkd.in/emy5S7gvjust','https://www.youtube.com/playlist?list=PLQEaRBV9gAFvzp6XhcNFpk1WdOcyVo9qT']
+  ]]
+];
+
+export const systemDesignProblems = systemDesignGroups.flatMap(([group, problems], gi) => problems.map((p, pi) => ({id:`sd-${gi}-${pi}`,group,title:p[0],url:p[1],secondaryUrl:p[2]||'',chapter:'system-design'})));
